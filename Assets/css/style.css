@@ -1,0 +1,23 @@
+.card {
+    display: flex;
+    flex-flow: column;
+    margin: 0 auto;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-flow: column;
+}
+
+.search-btn {
+    background-color: aquamarine;
+    border-style:solid;
+    border-color:black;
+    margin-top: 10px;
+}
+
+.form-label {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
