@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    <link rel="stylesheet" href="Assets/css/style.css" />
+    <title>LOC Search</title>
+</head>
+<body>
+    <section class="container-fluid">
+        <div class="card">
+            <h3 class="card-header text-uppercase">Search LOC</h3>
+            <form id="search-form" class="card-body">
+              <label class="form-label" for="keywords">Keywords:</label>
+              <input name="keywords" type="text" autofocus="true" class="form-input keywords" />
+              <label class="form-label" for="formats">Formats to search:</label>
+              <select name="formats" class="format-select">
+                <option value="all">All</option>
+                <option value="maps">Maps</option>
+                <option value="audio">Audio</option>
+                <option value="photos">Photos</option>
+                <option value="manuscripts">Manuscripts</option>
+                <option value="newspapers">Newspapers</option>
+                <option value="film-and-videos">Film and Videos</option>
+                <option value="notated-music">Printed Music</option>
+                <option value="websites">Archived Websites</option>
+              </select>
+              <button type="button" class="search-btn">Search</button>
+            </form>
+          </div>
+    </section>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script type="text/javascript" src="./assets/js/script.js"></script>
+</html>
